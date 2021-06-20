@@ -34,7 +34,7 @@ h2 {
 
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/wilderness-image.jpg");
+    url("/images/wilderness-image.jpg");
   background-size: cover;
   background-position: center;
   height: 65vh;
@@ -77,17 +77,8 @@ h2 {
 .nav-link.active {
   color: #fb743e;
 }
-/*
-.highlight {
-  background-image: url("../images/brush-stroke-banner-6.png");
-  background-repeat: no-repeat;
-  background-size: 100% 95%;
-  color: white;
-  padding: 8px 0;
-  filter: invert(62%) sepia(28%) saturate(6421%) hue-rotate(335deg)
-    brightness(106%) contrast(97%);
-}
-*/
+
+/*Our Mission Section*/
 
 .mission-section {
   margin-bottom: 13px;
@@ -149,6 +140,7 @@ h2 {
   box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
 }
 
+/*Types of Adventures Offered - Bootstrap Cards*/
 /*
 .adventure-types-section {
   background-color: #485461;
@@ -161,6 +153,12 @@ h2 {
   text-align: center;
   vertical-align: middle;
 }
+
+/*Why Choose PNW Adventures*/
+/*insert style code here*/
+
+/*Testimonials Section - Bootstrap Carousel*/
+
 .testimonials-section {
   background-color: #485461;
   background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
