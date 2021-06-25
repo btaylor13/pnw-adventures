@@ -151,6 +151,10 @@ Types of Adventures Offered - Bootstrap Cards*/
   vertical-align: middle;
 }
 
+.adventure-types-cards {
+  justify-content: center;
+}
+
 /*Why Choose PNW Adventures*/
 /*insert style code here*/
 
