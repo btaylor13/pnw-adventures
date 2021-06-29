@@ -159,9 +159,234 @@ Types of Adventures Offered - Bootstrap Cards*/
 /*insert style code here*/
 
 /*Testimonials Section - Bootstrap Carousel*/
+.testimonial-bg {
+  border: 10px solid #fb743e;
+  padding: 80px 70px;
+  text-align: center;
+  position: relative;
+}
+.testimonial-bg:before {
+  content: "\f10d";
+  font-family: "fontawesome";
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background: #fff;
+  text-align: center;
+  font-size: 50px;
+  color: #3c414c;
+  position: absolute;
+  top: -40px;
+  left: 2%;
+}
+.testimonial {
+  padding: 0 15px;
+}
+.testimonial .description {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848484;
+  line-height: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.testimonial .description:before {
+  content: "";
+  width: 75%;
+  border-top: 1px solid #ddd;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.testimonial .description:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  transform: translateX(-50%) rotate(45deg);
+}
+.testimonial .pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 25px auto;
+  overflow: hidden;
+}
+.testimonial .pic img {
+  width: 100%;
+  height: auto;
+}
+.testimonial .title {
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 700;
+  color: #848484;
+  text-transform: capitalize;
+  margin: 0;
+}
+.testimonial .post {
+  display: inline-block;
+  font-size: 20px;
+  color: #848484;
+}
+.owl-theme .owl-controls {
+  background: #fff;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -34%;
+  right: 0;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: #34363b;
+  opacity: 1;
+  padding: 0;
+}
+.owl-prev:before,
+.owl-next:before {
+  content: "\f104";
+  font-family: "fontawesome";
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+.owl-next:before {
+  content: "\f105";
+}
+@media only screen and (max-width: 767px) {
+  .testimonial-bg {
+    padding: 50px 40px;
+  }
+  .owl-theme .owl-controls {
+    bottom: -22%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .testimonial-bg:before {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 40px;
+  }
+  .testimonial-bg {
+    padding: 30px 10px;
+  }
+  .owl-theme .owl-controls {
+    bottom: -15%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .testimonial .title,
+  .testimonial .post {
+    font-size: 16px;
+  }
+  .owl-theme .owl-controls {
+    bottom: -12%;
+  }
+}
 
+/*
 .testimonials-section {
   background-color: #485461;
   background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   color: white;
 }
+
+
+#demo {
+  background: linear-gradient(112deg, #ffffff 50%, #53c68c 50%);
+  max-width: 900px;
+  margin: auto;
+}
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: #383838;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 3rem 2rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+}
+
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+#testimonials-image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  #image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+i {
+  background-color: #fb743e;
+  padding: 1.4rem;
+}
+
+@media (max-width: 767px) {
+  i {
+    padding: 0.8rem;
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
+}
+*/
