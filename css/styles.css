@@ -22,6 +22,10 @@ h5 {
   font-weight: bold;
 }
 
+p {
+  font-family: "Raleway", sans-serif;
+}
+
 /*Navigation Bar*/
 
 .logo-image {
@@ -51,7 +55,7 @@ h5 {
 
 .jumbotron-main-header {
   font-family: "Mate SC", serif;
-  font-size: 4rem;
+  font-size: 4.9rem;
   text-shadow: 0 1px 0 black;
 }
 
@@ -90,8 +94,13 @@ h5 {
 /*Our Mission Section*/
 
 .mission-section {
+  padding-top: 23px;
   margin-bottom: 13px;
   padding-bottom: 30px;
+}
+
+.mission-header {
+  padding-bottom: 13px;
 }
 .circle-sketch-highlight {
   position: relative;
