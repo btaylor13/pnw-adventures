@@ -6,7 +6,18 @@ Color Palette:
 
 */
 
-h2 {
+hr {
+  border: 0;
+  height: 1px;
+  width: 10%;
+  position: relative;
+  margin: 30px auto;
+}
+
+h2,
+h3,
+h4,
+h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -162,6 +173,9 @@ Types of Adventures Offered - Bootstrap Cards*/
   padding-top: 41px;
 }
 
+.why-icons-hp {
+}
+
 /*Testimonials Section - Bootstrap Carousel*/
 .testimonial-bg {
   border: 10px solid #fb743e;
@@ -170,12 +184,13 @@ Types of Adventures Offered - Bootstrap Cards*/
   position: relative;
 }
 .testimonial-bg:before {
+  font-family: "Font Awesome 5 Free";
   content: "\f10d";
-  font-family: "fontawesome";
+  font-weight: 900;
   width: 75px;
   height: 75px;
   line-height: 75px;
-  background: #fff;
+  background: white;
   text-align: center;
   font-size: 50px;
   color: #3c414c;
@@ -246,7 +261,7 @@ Types of Adventures Offered - Bootstrap Cards*/
   background: #fff;
   margin-top: 10px;
   position: absolute;
-  bottom: -34%;
+  bottom: -43%;
   right: 0;
 }
 .owl-theme .owl-controls .owl-buttons div {
@@ -260,11 +275,11 @@ Types of Adventures Offered - Bootstrap Cards*/
 }
 .owl-prev:before,
 .owl-next:before {
+  font-family: "Font Awesome 5 Free";
   content: "\f104";
-  font-family: "fontawesome";
   font-size: 23px;
   font-weight: 700;
-  color: #fff;
+  color: white;
 }
 .owl-next:before {
   content: "\f105";
@@ -309,13 +324,16 @@ Types of Adventures Offered - Bootstrap Cards*/
 }
 
 .cta-header {
-  font-size: 3rem;
-  padding-top: 52px;
-  padding-bottom: 30px;
+  font-family: "Mate SC", serif;
+  font-size: 3.5rem;
+  padding-top: 41px;
+  padding-bottom: 21px;
 }
-
 .cta-buttons {
-  padding: 23px;
+  padding-bottom: 23px;
+}
+.cta-btn {
+  border-radius: 3rem;
 }
 
 .cta-book-btn {
