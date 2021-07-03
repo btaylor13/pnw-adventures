@@ -9,7 +9,7 @@ Color Palette:
 hr {
   border: 0;
   height: 1px;
-  width: 10%;
+  width: 17%;
   position: relative;
   margin: 30px auto;
 }
@@ -50,6 +50,15 @@ p {
   background-size: cover;
   background-position: center;
   height: 65vh;
+  color: #fb743e;
+}
+
+.jumbotron-contact-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/wilderness-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
   color: #fb743e;
 }
 
@@ -594,4 +603,42 @@ footer li {
 }
 .standard_header .standard_social_links {
   margin-left: 1rem;
+}
+
+/*Guides Page*/
+
+.jared-pic,
+.alex-pic,
+.team-photo {
+  object-fit: cover;
+  border: 8px solid #fb743e;
+  border-radius: 50%;
+}
+
+.jared-pic,
+.alex-pic {
+  width: 350px;
+  height: 350px;
+}
+
+.team-photo {
+  width: 400px;
+  height: 400px;
+}
+/*FAQs page*/
+
+.contact-container {
+  background-color: #fb743e;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  opacity: 0.87;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 90%;
+  /* The width is the width of the web page */
+  border-radius: 50%;
 }
