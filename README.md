@@ -1,1 +1,3 @@
-# pnw-adventures-1
+# pnw-adventures
+
+An outdoor adventure website design and code
