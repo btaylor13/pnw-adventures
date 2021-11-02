@@ -1,3 +1,2 @@
 # pnw-adventures
-
-An outdoor adventure website design and code
+An outdoor adventure multi-page website developed using HTML, CSS and Bootstrap
